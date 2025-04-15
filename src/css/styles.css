@@ -34,6 +34,7 @@ img {
 }
 
 .loader {
+  display: block;
   margin: 0 auto;
   width: 60px;
   aspect-ratio: 1;
@@ -179,4 +180,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #2e2f42;
+}
+.hidden {
+  display: none;
 }

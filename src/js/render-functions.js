@@ -57,9 +57,9 @@ export function clearGallery() {
 }
 
 export function showLoader() {
-  loader.removeAttribute('hidden');
+  loader.classList.remove('hidden');
 }
 
 export function hideLoader() {
-  loader.setAttribute('hidden', true);
+  loader.classList.add('hidden');
 }
